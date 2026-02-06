@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cafe: #6F4E37;
+  --color-cafe-dark: #5D4129;
+  --color-cafe-light: #8B6F5C;
+  
+  --color-dourado: #C9A227;
+  --color-dourado-dark: #A88620;
+  
+  --color-serra: #4A7C59;
+  --color-serra-dark: #3D6549;
+  
+  --color-creme: #F5F0E6;
+  
+  --color-texto: #2D2A26;
+  --color-texto-light: #6B6560;
+  
+  --color-cta: #C9A227;
+  --color-cta-hover: #A88620;
+
+  --font-titulo: 'Playfair Display', serif;
+  --font-corpo: 'Open Sans', sans-serif;
+}
+
+/* Esconder scrollbar mas manter scroll */
+html {
+  scrollbar-width: none; /* Firefox */
+}
+
+html::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
