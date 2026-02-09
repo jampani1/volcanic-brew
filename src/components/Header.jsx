@@ -100,7 +100,7 @@ const Header = () => {
         </nav>
 
         {/* Safe area padding para iPhones */}
-        <div className="h-6"></div>
+        <div className="h-8 pb-safe"></div>
       </div>
     </header>
   )
