@@ -497,10 +497,24 @@ export default function Loja() {
             </div>
           </div>
 
-          <div className="border-t border-white/10 mt-8 pt-8 text-center">
-            <p className="font-corpo text-sm text-white/40">
-              © 2024 Café Sete Quedas. Todos os direitos reservados.
-            </p>
+          <div className="border-t border-white/10 mt-8 pt-8">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+              <p className="font-corpo text-sm text-white/40">
+                © 2024 Café Sete Quedas. Todos os direitos reservados.
+              </p>
+              <a
+                href="https://jampani.me"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center gap-2 font-corpo text-sm text-white/40 hover:text-cta transition-colors"
+              >
+                <span>Desenvolvido por</span>
+                <span className="font-semibold text-white/60 group-hover:text-cta transition-colors">jampani.me</span>
+                <svg className="w-4 h-4 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+            </div>
           </div>
         </div>
       </footer>
